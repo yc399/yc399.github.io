@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    background-color: #FFFFE4;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#09055e
+}
+
+header {
+    padding: 16px;
+    background-color: #8F1402;
+    color:#FFFFE4;
+    text-align: center;
+    grid-area: header;
+}
+
+#menu {
+    padding: 20px;
+    background-color: #048243;
+    grid-area: menu;
+}
+
+nav {
+   margin-top: 10px;
+   margin-left: 0px;
+   text-decoration: none;
+   display: flex;
+   flex-flow: column;
+}
+
+#main-content {
+    padding: 32px;
+    grid-area: main;
+}
+
+footer {
+    padding: 16px;
+    background-color: #8F1402;
+    color: #FFFFE4;
+    grid-area: footer;
+}
+
+#nav-ul > li {
+    padding: 8px;
+    margin: 15px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.navbutton {
+    color:#FFFFE4;
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid #FFFFE4;
+    border-radius: 15%;
+}
+
+#footer-ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between; /* Spread items evenly */
+    max-width: 800px; /* Set a maximum width for the footer content */
+}
+
+#footer-ul > div > li > a {
+    margin-left: 14px;
+    color: #FFFFE4;
+    text-decoration: none;
+    text-align: center
+}
+
+
+form {
+    text-align: center;
+}
+
+#grid-container {
+    display: grid;
+    grid-template-areas:
+    "header header"
+    "menu main"
+    "footer footer"
+    ;
+    grid-template-columns: 1fr 5fr;
+}
+
+#SHC {
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+    margin-left: 15px;
+    border-radius: 10%;
+}
+
+#SHCDIV {
+    display: flex;
+}
+
+#CTC {
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+    margin-right: 15px;
+    border-radius: 10%;
+}
+
+#CTCDIV {
+    display: flex;
+}
+
+#SMC {
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+    margin-left: 15px;
+    border-radius: 10%;
+}
+
+#SMCDIV {
+    display: flex;
+}
+
+#RDC {
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+    margin-right: 15px;
+    border-radius: 10%;
+}
+
+#RDCDIV {
+    display: flex;
+}
+
+#GBC {
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+    margin-left: 15px;
+    border-radius: 10%;
+}
+
+#GBCDIV {
+    display: flex;
+}
